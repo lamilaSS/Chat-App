@@ -1,0 +1,294 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Head */
+.header-col-first {
+  position: relative;
+  background-color: #313131;
+  color: white;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 13px;
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  display: block;
+  outline: none;
+  border-bottom: 2px solid #404040;
+  border-top: 1px solid #404040;
+}
+.header-col-first::after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  width: 1px;
+  border-left: 1px solid #404040;
+  height: 60px;
+  top: 0;
+  right: -1px;
+}
+.header-col-first > svg {
+  position: relative;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  display: block;
+}
+
+/* header-col */
+.header-col-th {
+  position: relative;
+  background-color: #313131;
+  color: white;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 13px;
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  display: block;
+  outline: none;
+  border-bottom: 2px solid #404040;
+  border-top: 1px solid #404040;
+}
+.header-col-th::after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  width: 1px;
+  border-left: 1px solid #404040;
+  height: 60px;
+  top: 0;
+  right: -1px;
+}
+.header-col-th > svg {
+  position: relative;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  display: block;
+}
+.header-col-th .highlight:hover {
+  background-color: #313131;
+}
+
+.header-col-th-small {
+  position: relative;
+  background-color: #313131;
+  color: white;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 13px;
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  display: block;
+  outline: none;
+  border-bottom: 1px solid #404040;
+  border-top: 1px solid #404040;
+}
+.header-col-th-small::after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  width: 1px;
+  border-left: 1px solid #404040;
+  height: 60px;
+  top: 0;
+  right: -1px;
+}
+.header-col-th-small > svg {
+  position: relative;
+  top: -107%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  display: block;
+}
+.header-col-th-small .highlight:hover {
+  background-color: #313131;
+}
+/* end header-col */
+.header-col-first:hover,
+.header-col-th:hover,
+.header-col-th-small:hover {
+  background-color: #242424;
+}
+.header-row {
+  background-color: #313131;
+}
+
+.bot {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* Vietnamese */
+.up-reference-vn::before {
+  content: "Tham chiếu";
+  display: block;
+  width: 130px;
+  position: absolute;
+  top: -100%;
+  left: -85%;
+  pointer-events: none;
+}
+.up-buy-vn::before {
+  content: "Bên mua";
+  display: block;
+  width: 100px;
+  position: absolute;
+  top: -100%;
+  pointer-events: none;
+}
+.up-match-vn::before {
+  content: "Khớp lệnh";
+  display: block;
+  width: 100px;
+  position: absolute;
+  top: -100%;
+  left: -55%;
+  pointer-events: none;
+}
+.up-sell-vn::before {
+  content: "Bên bán";
+  display: block;
+  width: 100px;
+  position: absolute;
+  top: -100%;
+  pointer-events: none;
+}
+.up-pt-vn::before {
+  content: "Nước ngoài";
+  display: block;
+  width: 180px;
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  cursor: default;
+  pointer-events: none;
+}
+/* English */
+.up-reference-en::before {
+  content: "Reference";
+  display: block;
+  width: 130px;
+  position: absolute;
+  top: -100%;
+  left: -85%;
+  pointer-events: none;
+}
+.up-buy-en::before {
+  content: "Bid";
+  display: block;
+  width: 100px;
+  position: absolute;
+  top: -100%;
+  pointer-events: none;
+}
+.up-match-en::before {
+  content: "Matched";
+  display: block;
+  width: 100px;
+  position: absolute;
+  top: -100%;
+  left: -55%;
+  pointer-events: none;
+}
+.up-sell-en::before {
+  content: "Asked";
+  display: block;
+  width: 100px;
+  position: absolute;
+  top: -100%;
+  pointer-events: none;
+}
+.up-pt-en::before {
+  content: "Foreign";
+  display: block;
+  width: 180px;
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  cursor: default;
+  pointer-events: none;
+}
+
+.border-header-left::before {
+  content: " ";
+  display: block;
+  width: 1px;
+  position: absolute;
+  height: 90px;
+  top: -100%;
+  left: -1px;
+  border-left: 1px solid #404040;
+}
+.border-header-right::before {
+  content: " ";
+  display: block;
+  width: 1px;
+  position: absolute;
+  height: 90px;
+  top: -100%;
+  right: -1px;
+  border-left: 1px solid #404040;
+}
+
+/* Column */
+.col-first {
+  position: relative;
+  color: white;
+  font-size: 13px;
+  text-align: left;
+  line-height: 30px;
+  height: 30px;
+}
+.col-first::after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  width: 2px;
+  border-left: 1px solid #404040;
+  height: 60px;
+  top: 0;
+  right: -1px;
+}
+.col-th {
+  position: relative;
+  color: white;
+  font-size: 13px;
+  text-align: right;
+  line-height: 30px;
+  height: 30px;
+}
+.col-th::after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  width: 2px;
+  border-left: 1px solid #404040;
+  height: 60px;
+  top: 0;
+  right: -1px;
+}
+
+.highlight {
+  background-color: rgba(40, 40, 40, 0.8);
+}
+
+/* rereference floor ceiling */
+.reference {
+  color: #fdff12;
+}
+.floor {
+  color: #fd02fd;
+}
+.ceiling {
+  color: #52d3f9;
+  border-right: none;
+}
+
+.ReactVirtualized__Grid, .ReactVirtualized__Table__Grid {
+  outline: none;
+}

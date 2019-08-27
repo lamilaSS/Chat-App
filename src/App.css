@@ -1,0 +1,49 @@
+
+  
+  .container {
+    max-width: 850px;
+   
+   
+  }
+  
+  .install {
+    text-align: center;
+    
+  }
+  
+  
+  
+  .chatfeed-wrapper {
+    box-shadow: 0 20px 20px rgba(0, 0, 0, .08);
+    border-radius: 4px;
+    max-width: 450px;
+    
+    border: 1px solid #ddd;
+    
+  }
+  
+  
+  .popup-content{
+    width: 200px;
+    
+  }
+  .chat-history {
+    display: block;
+    min-height: 250px;
+  }
+  
+  .outer {
+    display: block;
+    height: 50%;
+    overflow-y: scroll;
+    position: relative;
+  }
+  
+  
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  
+  
